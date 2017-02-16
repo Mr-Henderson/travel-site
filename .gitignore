@@ -9,10 +9,10 @@
 *.vi
 *~
 *.sass-cache
-node_modules/
 .tmp/
 
 # OS or Editor folders
+node_modules
 .DS_Store
 Thumbs.db
 .cache

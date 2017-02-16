@@ -5,8 +5,8 @@ browserSync = require('browser-sync').create();
 gulp.task('watch', function() {
 
   browserSync.init({
-      notify: false,
-      server: {
+    notify: false,
+    server: {
       baseDir: "app"
     }
   });
@@ -21,8 +21,7 @@ gulp.task('watch', function() {
 
   watch('./app/assets/scripts/**/*.js', function() {
     gulp.start('scriptsRefresh');
-  });
-
+  })
 
 });
 
